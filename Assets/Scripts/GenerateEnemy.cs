@@ -10,8 +10,7 @@ public class GenerateEnemy : MonoBehaviour
     [SerializeField] private int _directionX;
 
     private float _delay = 2f;
-    //private GameObject _enemy;
-
+    
     private void Start()
     {
         StartCoroutine(Generate());
