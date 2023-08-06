@@ -10,7 +10,11 @@ public class EnemyGeneration : MonoBehaviour
     [SerializeField] private int _directionX;
 
     private float _delay = 2f;
+<<<<<<< HEAD:Assets/Scripts/EnemyGeneration.cs
 
+=======
+    
+>>>>>>> c4771f41629caa56b03f11b5cf10da26f9f2e618:Assets/Scripts/GenerateEnemy.cs
     private void Start()
     {
         StartCoroutine(Generate());
