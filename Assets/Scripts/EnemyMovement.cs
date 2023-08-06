@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x + _directionX, transform.position.y, 0), _speed * Time.deltaTime);        
+        transform.Translate(_speed * Time.deltaTime * _directionX, 0, 0);
     }
 
     public void SetDestinationX(int directionX)
